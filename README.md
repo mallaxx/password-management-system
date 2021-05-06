@@ -1,2 +1,5 @@
 # password-management-system
-It's a tkinter project with mysql being the backend part for this project. It is based on python language.
+It's a project based of tkinter and mysql.
+
+It's my first tkinter project, so yeah don't expect too much from this project.
+
