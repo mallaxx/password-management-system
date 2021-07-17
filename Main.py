@@ -27,7 +27,7 @@ import string
 
 width,height=pyautogui.size()
 
-connecting=mysql.connect(host='localhost',user='root',passwd='Hafeezh@12')
+connecting=mysql.connect(host='localhost',user='root',passwd='root')
 
 if connecting.is_connected():
     print('mysql is connected')
