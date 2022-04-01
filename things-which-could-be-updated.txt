@@ -1,0 +1,24 @@
+change password button on the dash board , we have to put condition on the change password
+condition are length upper case and special char.
+reposition of refresh record and update record buttons
+removal of username,password,website canvas with the main canvas and also the canvas_createline
+a big image of text "security" in y axis vertical on the black canvas inside the main dashboard
+------------------------update bugges:------------------------
+insert command working but other retrieved data is not having the laterst data shown
+scroll bar is not working properly, few elements are not shown
+no warning shown for not matching the condition for the updation of the password
+multiple password button for the update password section is not yet destroyed
+insert function not working after updating the password
+warning message for user for wrong password and required condition are not verifed
+back button for the update password is not yet ready
+need to replace the button with the button image from photo image module for both update password and update record
+auto generate password not working after update record function is called
+warning message for user for wrong password condition in changing the master password window
+confirm password and new password need to be replaced
+multiple password's buttons are not destroyed after the updating  of the password(inside the user portal)
+warning message for the user if the password or username is wrong in the login screen.
+scrollable area has to be decreased by 40, last entry is not visible.
+"your registration was successful.  to "your registration has been successful." in registration process.....
+Welcome username, You have logged in successfully.  add full stop
+new condition for checking username and website in user's gui.
+you have more than 2 password for this website to you have omre than one password for this website.
