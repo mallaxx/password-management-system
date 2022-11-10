@@ -495,18 +495,18 @@ def user_ui():
 
     word_logo=Canvas(stem,width=570,height=60,bg="white")
     word_logo.place(x=365,y=33)
-    word_logo_img=Image.open("passwordmanager.png")
+    word_logo_img=Image.open("images/passwordmanager.png")
     word_logo.image=ImageTk.PhotoImage(word_logo_img)
     word_logo.create_image(0,0,image=word_logo.image,anchor="nw")
     
-    logo_img=Image.open("logo.png")
+    logo_img=Image.open("images/logo.png")
     logo_img=logo_img.resize((100,100))
     main_logo=Canvas(stem,width=100,height=100,highlightthickness=0)
     main_logo.place(x=275,y=15)
     main_logo.image=ImageTk.PhotoImage(logo_img)
     main_logo.create_image(0,0,image=main_logo.image,anchor="nw")
 
-    security_img=Image.open('security.png')
+    security_img=Image.open('images/security.png')
     security_img_canvas=Canvas(stem,width=90,height=510,highlightthickness=0)
     security_img_canvas.place(x=70,y=175)
     security_img_canvas.image=ImageTk.PhotoImage(security_img)
@@ -518,19 +518,19 @@ def user_ui():
 
     signout_canvas=Canvas(stem,width=200,height=53,highlightthickness=0,bg="white")
     signout_canvas.place(x=1150,y=75)
-    signout_img= ImageTk.PhotoImage(file="signout123.png")
+    signout_img= ImageTk.PhotoImage(file="images/signout123.png")
     signout_button=Button(signout_canvas,image=signout_img,command=signout)
     signout_button.pack()
 
     refresh_canvase=Canvas(stem,width=250,height=138,highlightthickness=0.1,bg="white")
     refresh_canvase.place(x=1170,y=180)
-    refresh_img = ImageTk.PhotoImage(file="refresh.png")
+    refresh_img = ImageTk.PhotoImage(file="images/refresh.png")
     refresh_button=Button(refresh_canvase,image=refresh_img,command=update_record_info)
     refresh_button.pack()
 
     update_canvase=Canvas(stem,width=150,height=50,highlightthickness=0.1,bg="white")
     update_canvase.place(x=1150,y=280)
-    update_img = ImageTk.PhotoImage(file="update.png")
+    update_img = ImageTk.PhotoImage(file="images/update.png")
     update_button=Button(update_canvase,image=update_img,command=update__info)
     update_button.pack()
 
@@ -629,7 +629,7 @@ def login_ui():
     canvas=Canvas(main,width=1440,height=900,highlightthickness=0)
     canvas.pack()
     
-    back_img=Image.open('background_img.jpg')
+    back_img=Image.open('images/background_img.jpg')
     canvas.image=ImageTk.PhotoImage(back_img)
     canvas.create_image(0,0,image=canvas.image,anchor='nw')
 
@@ -1062,7 +1062,7 @@ def login_ui():
         main_frame_logo=Canvas(main,width=295,height=300,highlightthickness=0)
         main_frame_logo.place(x=605,y=270)
         
-        img=Image.open("logo.png")
+        img=Image.open("images/logo.png")
         main_frame_logo.image=ImageTk.PhotoImage(img)
         main_frame_logo.create_image(0,0,image=main_frame_logo.image,anchor="nw")
 
